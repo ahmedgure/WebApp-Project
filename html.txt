@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>My Blog</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <!-- navigation -->
+    <header>
+        <h1>
+            <a href="/">
+                Ahmed Gure's  CYBER BLOG
+            </a>
+        </h1>
+        <a href="mailto:ahmed1gure@gmail.com" class="button">Send Email</a>
+        <a href="https://www.linkedin.com/" class="linkedin"><img
+                src="https://drive.google.com/uc?export=view&id=14GW-oOoadlMxUGs5FvKkgGkrihtkFyUh" alt="LinkedIn logo"
+                height="45px"></a>
+    </header>
+
+
+    <!-- "About" section -->
+    <section id="about" class="intro">
+        <!--Replace with your own image-->
+        <img src="https://drive.google.com/uc?export=view&id=1xvxRGAACLqLEMWaw6X_VatbirrIOtepy"
+            alt="Robert Smith picture" height=375px;>
+        <h2 class="section-title">Hi, I'm Ahmed!</h2>
+        <p>
+            This blog will document the latter half of my journey through the U of M Cyber Security Bootcamp and what I wish to attain from this course.
+            <br><br>
+            Alea Iacta Est
+        </p>
+    </section>
+
+
+    <!-- "Blog Posts" section -->
+    <section id="blog-post-collection" class="blog-posts">
+        <h2 class="section-title">Blog Posts</h2>
+        <article class="blog-post">
+            <img src="https://drive.google.com/uc?export=view&id=1ueyXZqXdMHEawBDTGLVD5-Kdp1t5DUZy&rl" alt="Image 1">
+
+            <div class="blog">
+                <h3>Ransomware: The Rise of a Cybersecurity Epidemic</h3>
+                <h4>Ransomware</h4>
+                <p>Oh boy, here we go. Let's talk about ransomware, shall we? This nasty little malware has been wreaking havoc on individuals
+                   and businesses alike, and it shows no signs of slowing down. Ransomware works by encrypting a victim's files and demanding
+                   a ransom in exchange for the decryption key. It's a classic extortion scheme, but it's become incredibly effective in the
+                   digital age.
+
+                   The problem with ransomware is that it's incredibly difficult to defend against. Once a victim's files are encrypted, the only
+                   way to get them back is to pay the ransom or hope that a decryption tool becomes available. And even if a victim pays the ransom,
+                   there's no guarantee that they'll get their files back. It's a lose-lose situation for the victim, and a win-win situation for
+                   the cybercriminals.
+
+                   So what can be done about ransomware? It's a complex problem with no easy solutions, but there are steps that individuals and
+                   businesses can take to minimize the risk. Backing up important files regularly, keeping software up to date, and avoiding
+                   suspicious emails and downloads are all good starting points. But ultimately, it's up to everyone to be vigilant and to take
+                   cybersecurity seriously, because the threat of ransomware isn't going away anytime soon.
+                </p>
+            </div>
+        </article>
+
+
+        <!-- second blog post -->
+        <article class="blog-post">
+            <img src="https://drive.google.com/uc?export=view&id=1PJrGBg8LgxHAzwhfM6drWR5fdfNQkRE4" alt="Image-2">
+            <div class="blog">
+                <h3>Hacking for Good? The Ethics of White Hat Hacking</h3>
+                <h4>Hacking</h4>
+                <p>
+                    Alright, folks. Today we're talking about hacking. More specifically, we're talking about the ethics of white hat hacking.
+                    Is it really ethical to hack into someone's computer or network, even if it's with good intentions? There's no denying that
+                    white hat hackers can do a lot of good in the world, by identifying and patching vulnerabilities before the bad guys can
+                    exploit them. But what happens when a white hat hacker goes too far? What happens when they accidentally cause damage to a
+                    system, or when they breach someone's privacy in the pursuit of uncovering vulnerabilities?
+
+                    This is a tricky ethical question that doesn't have a clear answer. Some argue that any form of hacking, even if it's done
+                    with good intentions, is still illegal and unethical. Others believe that the ends justify the means, and that it's perfectly
+                    acceptable to hack into a system if it prevents a larger breach down the road. Ultimately, it comes down to the individual
+                    hacker's moral compass and their ability to balance the potential benefits with the potential risks.
+                </p>
+            </div>
+        </article>
+    </section>
+</body>
+
+</html>
